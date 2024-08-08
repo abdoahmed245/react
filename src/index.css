@@ -1,0 +1,14 @@
+.loader {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: #61a7e9 #f10d0d00;
+  animation: l1 1s infinite;
+  padding: 10px;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
