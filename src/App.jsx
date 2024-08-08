@@ -7,7 +7,7 @@ function App() {
   const [err,setErr] = useState("");
   const [errsolv,setErrsolv] = useState("");
   const [status,setStatus] = useState(false);
-  let reg = /^[\u0621-\u064A]+\s[\u0621-\u064A]+/i
+  let reg = /^[\u0621-\u064A]+\s[\u0621-\u064A]+\s[\u0621-\u064A]+/i
   function click(event) {
     event.preventDefault();
     setErr("");
@@ -39,7 +39,7 @@ function App() {
           }
       });
       } else {
-        setErr("يجب ان يكون اسمك يحتوي علي اسم الاب : عبدالرحمن احمد")
+        setErr("يجب ان يكون اسمك الثلاثي مثل : محمد احمد محمد")
       }
     } else {
       setErr("الرجاء كتابة الاسم")
